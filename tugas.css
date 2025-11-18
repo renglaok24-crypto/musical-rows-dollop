@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.start{
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(5, 117, 15);
+}
+
+.start a{
+    text-decoration: none;
+    color: white;
+}
+
+.p1{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20250423/pngtree-a-supermarket-shelf-filled-with-colorful-rows-of-various-products-including-image_17215282.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.m1{
+    box-sizing: border-box;
+    margin-left: 100px;
+    color: white;
+    padding-bottom: 80px;
+}
+
+.p1 h3{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.p1 p{
+    margin-top: 30px;    
+}
+
+.contact{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    padding: auto;
+}
