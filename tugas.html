@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<style>
+    *{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.start{
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(5, 117, 15);
+}
+
+.start a{
+    text-decoration: none;
+    color: white;
+}
+
+.p1{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20250423/pngtree-a-supermarket-shelf-filled-with-colorful-rows-of-various-products-including-image_17215282.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.m1{
+    box-sizing: border-box;
+    margin-left: 100px;
+    color: white;
+    padding-bottom: 80px;
+}
+
+.p1 h3{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.p1 p{
+    margin-top: 30px;    
+}
+
+.contact{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    padding: auto;
+}
+
+
+</style>
+<body>
+    <nav class="nav">
+        <div class="logo"><h2>anjay STORE</h2></div>
+        <ul>
+            
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+        <div class="start"><a href="">MENU</a></div>
+    </nav>
+    <div class="p1">
+        <div class="m1">
+            <h3>Menyediakan macam-macam makanan dan minuman</h3>
+            <h1>Berbagai macam makanan <br>Beserta jajanan snack dan minuman</h1>
+            <h1>---------</h1>
+            <p>Disini tersedia segala jenis minuman, <br> Meskipun begitu  Jika anda haus, Anda bisa mampir ke toko kami. <br> Minuman disini bebas request, mau yang halal <br> Jika anda ber minat untuk membeli silahkan klik :</p>
+            <div class="contact"><a href="">BELI</a></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelayanan - Peleyanan Store</title>
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <h2 class="logo">Pelayanan Store</h2>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="service.html" class="active">Pelayanan</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Layanan Kami</h1>
+        <p>Kami menyediakan berbagai layanan terbaik untuk kebutuhan Anda.</p>
+    </section>
+    
+
+    <!-- SERVICE LIST -->
+    <section class="services">
+        <div class="service-card">
+            <h3>🎁 3. Pelayanan Tambahan (Value Added Service)</h3>
+            <p>Kami menyediakan Layanan bungkus kado gratis/premium.Tes produk sebelum dibeli (contoh: elektronik, kosmetik)..</p>
+        </div>
+
+        <div class="service-card">
+            <h3>🚚 Pengantaran Cepat</h3>
+            <p>Layanan kurir cepat untuk pengiriman barang aman dan tepat waktu.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>💬 Konsultasi Produk</h3>
+            <p>Dapatkan rekomendasi produk terbaik sesuai kebutuhan Anda.</p>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <h2>Butuh layanan sekarang?</h2>
+        <button id="pesanBtn">Pesan Layanan</button>
+    </section>
+
+    
